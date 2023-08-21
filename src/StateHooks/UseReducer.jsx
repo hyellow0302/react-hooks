@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import CountContext from "./ContextHooks/Context";
-import FirstPage from "./ContextHooks/FirstPage";
-import SecondPage from "./ContextHooks/SecondPage";
+import CountContext from "./Context.jsx";
+import FirstPage from "./FirstPage";
+import SecondPage from "./SecondPage";
 
 ReactDOM.render(
   <React.StrictMode>
