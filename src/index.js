@@ -20,12 +20,13 @@
 //
 import React from "react";
 import ReactDOM from "react-dom";
+import DOMRef from "./RefHooks/DOMRef";
 // import StateAndRef from "./RefHooks/StateAndRef";
-import VarAndRef from "./RefHooks/VarAndRef";
+//import VarAndRef from "./RefHooks/VarAndRef";
 
 ReactDOM.render(
   <React.StrictMode>
-    <VarAndRef />
+    <DOMRef />
   </React.StrictMode>,
   document.getElementById("root")
 );
