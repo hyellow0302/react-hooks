@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 
-export default function RenderingRef() {
+export default function StateAndRef() {
   const [count, setCount] = useState(0);
   const countRef = useRef(0);
 
