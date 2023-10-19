@@ -18,15 +18,28 @@
 //   document.getElementById("root")
 // );
 //
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import DOMRef from "./RefHooks/DOMRef";
+// // import DOMRef from "./RefHooks/DOMRef";
+// // import StateAndRef from "./RefHooks/StateAndRef";
+// //import VarAndRef from "./RefHooks/VarAndRef";
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <DOMRef />
+//   </React.StrictMode>,
+//   document.getElementById("root")
+// );
+//
 import React from "react";
 import ReactDOM from "react-dom";
-import DOMRef from "./RefHooks/DOMRef";
-// import StateAndRef from "./RefHooks/StateAndRef";
-//import VarAndRef from "./RefHooks/VarAndRef";
+import TimerCtrl from "./EffectHooks/TimerCtrl";
+//import UseEffectEX from "./EffectHooks/UesEffectEX";
 
 ReactDOM.render(
   <React.StrictMode>
-    <DOMRef />
+    <TimerCtrl />
   </React.StrictMode>,
   document.getElementById("root")
 );
