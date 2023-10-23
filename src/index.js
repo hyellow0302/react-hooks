@@ -18,6 +18,7 @@
 //   document.getElementById("root")
 // );
 //
+// /* RefHooks */
 // import React from "react";
 // import ReactDOM from "react-dom";
 // import DOMRef from "./RefHooks/DOMRef";
@@ -32,14 +33,27 @@
 //   document.getElementById("root")
 // );
 //
+// /* Effect Hooks */
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import TimerCtrl from "./EffectHooks/TimerCtrl";
+// //import UseEffectEX from "./EffectHooks/UesEffectEX";
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <TimerCtrl />
+//   </React.StrictMode>,
+//   document.getElementById("root")
+// );
+//
+// /* Performance Hooks */
 import React from "react";
 import ReactDOM from "react-dom";
-import TimerCtrl from "./EffectHooks/TimerCtrl";
-//import UseEffectEX from "./EffectHooks/UesEffectEX";
+import UseMemoCalculate from "./PerformanceHooks/UseMemoCalculate";
 
 ReactDOM.render(
   <React.StrictMode>
-    <TimerCtrl />
+    <UseMemoCalculate />
   </React.StrictMode>,
   document.getElementById("root")
 );
