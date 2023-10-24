@@ -30,13 +30,3 @@ export default function ObjectTypeUseMemo() {
     </div>
   );
 }
-
-function Component() {
-  const calculate = useCallback(
-    (num) => {
-      return num + 1;
-    },
-    [item]
-  );
-  return <div>{value}</div>;
-}
