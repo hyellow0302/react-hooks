@@ -46,14 +46,26 @@
 //   document.getElementById("root")
 // );
 //
-// /* Performance Hooks */
+// /* Performance Hooks - useMemo */
+// import React from "react";
+// import ReactDOM from "react-dom";
+// import UseMemoCalculate from "./PerformanceHooks/UseMemoCalculate";
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <UseMemoCalculate />
+//   </React.StrictMode>,
+//   document.getElementById("root")
+// );
+//
+// /* Performance Hooks - useCallback */
 import React from "react";
 import ReactDOM from "react-dom";
-import UseMemoCalculate from "./PerformanceHooks/UseMemoCalculate";
+import UseCallbackBox from "./PerformanceHooks/UseCallbackBox";
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseMemoCalculate />
+    <UseCallbackBox />
   </React.StrictMode>,
   document.getElementById("root")
 );
